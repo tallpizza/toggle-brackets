@@ -3,6 +3,11 @@
   "displayName": "Toggle Brackets",
   "description": "Toggle cycle (->{->[",
   "version": "0.0.1",
+  "publisher": "tallpizza",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallpizza/vscode-toggle-brackets"
+  },
   "engines": {
     "vscode": "^1.87.0"
   },
