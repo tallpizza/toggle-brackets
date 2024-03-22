@@ -2,8 +2,9 @@
   "name": "toggle-brackets",
   "displayName": "Toggle Brackets",
   "description": "Toggle cycle (->{->[",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "tallpizza",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/tallpizza/vscode-toggle-brackets"
