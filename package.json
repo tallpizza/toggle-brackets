@@ -2,7 +2,7 @@
   "name": "toggle-brackets",
   "displayName": "Toggle Brackets",
   "description": "Toggle cycle (->{->[",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "tallpizza",
   "icon": "icon.png",
   "repository": {
