@@ -41,3 +41,7 @@ if {condition} {
 executeFunction();
 }
 ```
+
+## Acknowledgments
+
+Brackets icons used in this extension were created by Laura Reen and are available on [Flaticon](https://www.flaticon.com/free-icons/brakets).
