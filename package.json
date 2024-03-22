@@ -15,7 +15,15 @@
     "commands": [
       {
         "command": "toggle-brackets.helloWorld",
-        "title": "Hello World"
+        "title": "Toggle Brackets"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "toggle-brackets.helloWorld",
+        "when": "editorTextFocus",
+        "key": "ctrl+shift+'",
+        "mac": "cmd+shift+'"
       }
     ]
   },
