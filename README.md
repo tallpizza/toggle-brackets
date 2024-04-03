@@ -4,24 +4,17 @@ The "Toggle Brackets" extension for Visual Studio Code provides developers with 
 
 ## Features
 
-- **Bracket Cycling:** Place the cursor inside or next to any bracket pair (`()`, `{}`, `[]`) and use the keyboard shortcut `Ctrl+Shift+[` to cycle through these bracket types.
+- **Bracket Cycling:** Place the cursor inside or next to any bracket pair (`()`, `{}`, `[]`) and use the keyboard shortcut `Cmd+Shift+"` to cycle through these bracket types.
 - **Code Efficiency:** Quickly adapt and change bracket types to match your coding requirements without manually deleting and retyping brackets.
 - **Multi-line Support:** The extension intelligently identifies matching bracket pairs even when they span multiple lines or are nested within each other.
 
 ## Usage
 
-After installing the extension, place your cursor on or inside a bracket pair and press `Ctrl+Shift+[`. The extension will identify the closest surrounding bracket pair and cycle it through the sequence: round brackets `()`, curly braces `{}`, and square brackets `[]`.
-
-## Installation
-
-1. Open Visual Studio Code.
-2. Press `Ctrl+P` to open the Quick Open dialog.
-3. Type `ext install toggle-brackets` to find the extension.
-4. Click the Install button, then the Enable button.
+After installing the extension, place your cursor on or inside a bracket pair and press `Cmd+Shift+"`. The extension will identify the closest surrounding bracket pair and cycle it through the sequence: round brackets `()`, curly braces `{}`, and square brackets `[]`.
 
 ## Keyboard Shortcut
 
-The default keyboard shortcut for cycling through brackets is `Ctrl+Shift+[`. You can customize this shortcut in VS Code's keyboard shortcut settings if necessary.
+The default keyboard shortcut for cycling through brackets is `Cmd+Shift+"`. You can customize this shortcut in VS Code's keyboard shortcut settings if necessary.
 
 ## Example
 
@@ -29,17 +22,17 @@ Here's a simple illustration showing the extension in action:
 
 Before using the shortcut:
 ```
-if (condition) {
-      ^
-executeFunction();
+const someFunction = () => {
+  return "hello world"
+              ^
 }
 ```
 
-After pressing `Ctrl+Shift+[` once:
+After pressing `Cmd+Shift+"` twice:
 ```
-if {condition} {
-executeFunction();
-}
+const someFunction = () => (
+  return "hello world"
+)
 ```
 
 ## Acknowledgments
