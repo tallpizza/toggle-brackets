@@ -7,7 +7,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallpizza/vscode-toggle-brackets"
+    "url": "https://github.com/tallpizza/toggle-brackets"
   },
   "engines": {
     "vscode": "^1.87.0"
